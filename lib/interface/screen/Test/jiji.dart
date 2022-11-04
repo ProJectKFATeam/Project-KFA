@@ -13,7 +13,9 @@ class _kokoState extends State<koko> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Center(),
+      child: Center(
+        child: Text("data"),
+      ),
     );
   }
 }
